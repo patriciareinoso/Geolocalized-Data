@@ -1,0 +1,3 @@
+#!/bin/sh
+
+xsltproc placemark-template.xsl sample-data.xml > test.kml
