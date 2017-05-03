@@ -44,11 +44,14 @@ function initMap() {
         center: center
     });
   
+    // Center the initial view of the map to the user location
     getUserLocation();
 
     addMarker(-25.363, 131.044);
 
+    // Location of the KML file used on the representation
     var src = 'https://sites.google.com/site/kmlfilestsp/kml/test4.kml';
+    // Creation of the KML layer using a public file
     var kmlLayer = new google.maps.KmlLayer(src, {
       suppressInfoWindows: true,
       preserveViewport: true,

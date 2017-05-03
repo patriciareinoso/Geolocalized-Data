@@ -1,7 +1,12 @@
 To execute:
 
-Just open the file app.html on the browser.
+Open the file app.html on the browser.
 
 Data should appear, becauses its public on the following URL:
 
 https://sites.google.com/site/kmlfilestsp/kml/test4.kml
+
+Problems to fix:
+
+The style of the placemarks does not corresponds to the style
+defined on the KML file.
