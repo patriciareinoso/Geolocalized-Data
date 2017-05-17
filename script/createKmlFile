@@ -1,3 +1,4 @@
 #!/bin/sh
 
-xsltproc placemark-template.xsl sample-data.xml > test.kml
+basex intermediate.xqy > intermediate.xml
+xsltproc placemark-template-2.xsl intermediate.xml > test.kml
