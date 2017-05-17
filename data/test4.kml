@@ -5,13 +5,13 @@
     <description>DESCRIPTION OF THE MAP</description>
     <Style id="line-normal">
       <LineStyle>
-        <color>ff1427a5</color>
+        <color>ffd18802</color>
         <width>4.5</width>
       </LineStyle>
     </Style>
     <Style id="line-highlight">
       <LineStyle>
-        <color>ff1427a5</color>
+        <color>ffd18802</color>
         <width>7.0215</width>
       </LineStyle>
     </Style>
@@ -30,7 +30,7 @@
         <color>ffd18802</color>
         <scale>1</scale>
         <Icon>
-          <href>ttps://sites.google.com/site/kmlfilestsp/kml/icon-1.png</href>
+          <href>https://sites.google.com/site/kmlfilestsp/kml/icon-1.png</href>
         </Icon>
         <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
       </IconStyle>

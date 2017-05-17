@@ -1,24 +1,242 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <kml xmlns="http://www.opengis.net/kml/2.2">
   <Document>
-    <Style id="orangeStyle">
-      <IconStyle>
-        <color>00000000</color>
-        <Icon>
-          <href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-        </Icon>
-      </IconStyle>
-    </Style>
     <name>NAME OF THE MAP</name>
     <description>DESCRIPTION OF THE MAP</description>
-    <StyleMap id="line-A52714-4">
+    <Style id="line-normal1">
+      <LineStyle>
+        <color>ff08a006</color>
+        <width>4.5</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-highlight1">
+      <LineStyle>
+        <color>ff08a006</color>
+        <width>7.0215</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line1">
       <Pair>
         <key>normal</key>
-        <styleUrl>#line-A52714-4-normal</styleUrl>
+        <styleUrl>#line-normal1</styleUrl>
       </Pair>
       <Pair>
         <key>highlight</key>
-        <styleUrl>#line-A52714-4-highlight</styleUrl>
+        <styleUrl>#line-highlight1</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-normal2">
+      <LineStyle>
+        <color>ff05a09d</color>
+        <width>4.5</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-highlight2">
+      <LineStyle>
+        <color>ff05a09d</color>
+        <width>7.0215</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line2">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-normal2</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-highlight2</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-normal3">
+      <LineStyle>
+        <color>ff07eef2</color>
+        <width>4.5</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-highlight3">
+      <LineStyle>
+        <color>ff07eef2</color>
+        <width>7.0215</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line3">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-normal3</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-highlight3</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-normal4">
+      <LineStyle>
+        <color>ff0688f1</color>
+        <width>4.5</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-highlight4">
+      <LineStyle>
+        <color>ff0688f1</color>
+        <width>7.0215</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line4">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-normal4</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-highlight4</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-normal5">
+      <LineStyle>
+        <color>ffd18802</color>
+        <width>4.5</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-highlight5">
+      <LineStyle>
+        <color>ffd18802</color>
+        <width>7.0215</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line5">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-normal5</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-highlight5</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-normal1">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://sites.google.com/site/kmlfilestsp/kml/icon-2.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text>&lt;h3&gt;$[name]&lt;/h3&gt;</text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-highlight1">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://sites.google.com/site/kmlfilestsp/kml/icon-2.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text>&lt;h3&gt;$[name]&lt;/h3&gt;</text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon1">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-normal1</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-highlight1</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-normal2">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://sites.google.com/site/kmlfilestsp/kml/icon-3.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text>&lt;h3&gt;$[name]&lt;/h3&gt;</text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-highlight2">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://sites.google.com/site/kmlfilestsp/kml/icon-3.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text>&lt;h3&gt;$[name]&lt;/h3&gt;</text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon2">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-normal2</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-highlight2</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-normal3">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://sites.google.com/site/kmlfilestsp/kml/icon-1.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text>&lt;h3&gt;$[name]&lt;/h3&gt;</text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-highlight3">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://sites.google.com/site/kmlfilestsp/kml/icon-1.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text>&lt;h3&gt;$[name]&lt;/h3&gt;</text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon3">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-normal3</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-highlight3</styleUrl>
       </Pair>
     </StyleMap>
     <Folder>
@@ -27,7 +245,7 @@
         <description>
 			Quality:
 			10.122199748631603</description>
-        <styleUrl>#line-A52714-4</styleUrl>
+        <styleUrl>#line1</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
           <coordinates>2.4351673688133184,
@@ -41,7 +259,7 @@
         <description>
 			Quality:
 			9.983899328711082</description>
-        <styleUrl>#line-A52714-4</styleUrl>
+        <styleUrl>#line2</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
           <coordinates>2.437995292916119,
@@ -61,7 +279,7 @@
         <description>
 			Quality:
 			9.949580874281233</description>
-        <styleUrl>#line-A52714-4</styleUrl>
+        <styleUrl>#line2</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
           <coordinates>2.440026256013187,
@@ -75,7 +293,7 @@
         <description>
 			Quality:
 			9.679807185674637</description>
-        <styleUrl>#line-A52714-4</styleUrl>
+        <styleUrl>#line2</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
           <coordinates>2.439813181121774,
@@ -89,7 +307,7 @@
         <description>
 			Quality:
 			9.672860085590221</description>
-        <styleUrl>#line-A52714-4</styleUrl>
+        <styleUrl>#line2</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
           <coordinates>2.439813181121774,
@@ -112,7 +330,7 @@
         <description>
 			Quality:
 			8.780784496781779</description>
-        <styleUrl>#line-A52714-4</styleUrl>
+        <styleUrl>#line4</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
           <coordinates>2.4392027076241476,
@@ -129,7 +347,7 @@
         <description>
 			Quality:
 			10.051616967182294</description>
-        <styleUrl>#line-A52714-4</styleUrl>
+        <styleUrl>#line1</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
           <coordinates>2.4389204210271878,
@@ -146,7 +364,7 @@
         <description>
 			Quality:
 			9.493577134395279</description>
-        <styleUrl>#line-A52714-4</styleUrl>
+        <styleUrl>#line3</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
           <coordinates>2.43817021688833,
@@ -169,7 +387,7 @@
         <description>
 			Quality:
 			9.853291309921753</description>
-        <styleUrl>#line-A52714-4</styleUrl>
+        <styleUrl>#line2</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
           <coordinates>2.4357726600920113,
@@ -186,7 +404,7 @@
         <description>
 			Quality:
 			9.82612822856742</description>
-        <styleUrl>#line-A52714-4</styleUrl>
+        <styleUrl>#line2</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
           <coordinates>2.436543352284746,
@@ -209,7 +427,7 @@
         <description>
 			Quality:
 			9.857964281913418</description>
-        <styleUrl>#line-A52714-4</styleUrl>
+        <styleUrl>#line2</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
           <coordinates>2.436205845343342,
@@ -232,7 +450,7 @@
         <description>
 			Quality:
 			9.729804553180077</description>
-        <styleUrl>#line-A52714-4</styleUrl>
+        <styleUrl>#line2</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
           <coordinates>2.4346817884697947,
@@ -255,7 +473,7 @@
         <description>
 			Quality:
 			9.788979713364112</description>
-        <styleUrl>#line-A52714-4</styleUrl>
+        <styleUrl>#line2</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
           <coordinates>2.4338724359105934,
@@ -278,7 +496,7 @@
         <description>
 			Quality:
 			9.71443962035061</description>
-        <styleUrl>#line-A52714-4</styleUrl>
+        <styleUrl>#line2</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
           <coordinates>2.432617790448888,
@@ -295,7 +513,7 @@
         <description>
 			Quality:
 			9.572266277073311</description>
-        <styleUrl>#line-A52714-4</styleUrl>
+        <styleUrl>#line2</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
           <coordinates>2.431032315324861,
@@ -312,7 +530,7 @@
         <description>
 			Quality:
 			9.833769911661113</description>
-        <styleUrl>#line-A52714-4</styleUrl>
+        <styleUrl>#line2</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
           <coordinates>2.4304500246949794,
@@ -329,7 +547,7 @@
         <description>
 			Quality:
 			9.976898275748136</description>
-        <styleUrl>#line-A52714-4</styleUrl>
+        <styleUrl>#line2</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
           <coordinates>2.428261538443522,
@@ -346,7 +564,7 @@
         <description>
 			Quality:
 			10.086848185892947</description>
-        <styleUrl>#line-A52714-4</styleUrl>
+        <styleUrl>#line1</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
           <coordinates>2.4282760292870176,
@@ -363,7 +581,7 @@
         <description>
 			Quality:
 			9.749728522746487</description>
-        <styleUrl>#line-A52714-4</styleUrl>
+        <styleUrl>#line2</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
           <coordinates>2.429420640094365,
@@ -386,7 +604,7 @@
         <description>
 			Quality:
 			9.623773213316579</description>
-        <styleUrl>#line-A52714-4</styleUrl>
+        <styleUrl>#line2</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
           <coordinates>2.4300317811236307,
@@ -403,7 +621,7 @@
         <description>
 			Quality:
 			9.92576194258212</description>
-        <styleUrl>#line-A52714-4</styleUrl>
+        <styleUrl>#line2</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
           <coordinates>2.431441795644029,
@@ -423,7 +641,7 @@
         <description>
 			Intensity:
 			3.678091746209793</description>
-        <styleUrl>#orangeStyle</styleUrl>
+        <styleUrl>#icon3</styleUrl>
         <Point>
           <coordinates>2.4339868004967764,
 				48.61854836592925,
@@ -436,7 +654,7 @@
         <description>
 			Intensity:
 			1.4399358094868386</description>
-        <styleUrl>#orangeStyle</styleUrl>
+        <styleUrl>#icon1</styleUrl>
         <Point>
           <coordinates>2.4343866007475974,
 				48.61871195490043,
@@ -449,7 +667,7 @@
         <description>
 			Intensity:
 			1.6971050096397224</description>
-        <styleUrl>#orangeStyle</styleUrl>
+        <styleUrl>#icon2</styleUrl>
         <Point>
           <coordinates>2.4343866007475974,
 				48.61871195490043,
@@ -462,7 +680,7 @@
         <description>
 			Intensity:
 			1.874517078005038</description>
-        <styleUrl>#orangeStyle</styleUrl>
+        <styleUrl>#icon2</styleUrl>
         <Point>
           <coordinates>2.4351673688133184,
 				48.619068299288955,
@@ -475,7 +693,7 @@
         <description>
 			Intensity:
 			2.1093238972218025</description>
-        <styleUrl>#orangeStyle</styleUrl>
+        <styleUrl>#icon2</styleUrl>
         <Point>
           <coordinates>2.4351673688133184,
 				48.619068299288955,
@@ -488,7 +706,7 @@
         <description>
 			Intensity:
 			4.0297253593844715</description>
-        <styleUrl>#orangeStyle</styleUrl>
+        <styleUrl>#icon3</styleUrl>
         <Point>
           <coordinates>2.4351673688133184,
 				48.619068299288955,
@@ -501,7 +719,7 @@
         <description>
 			Intensity:
 			1.1208129646293195</description>
-        <styleUrl>#orangeStyle</styleUrl>
+        <styleUrl>#icon1</styleUrl>
         <Point>
           <coordinates>2.4360240396750155,
 				48.6189923434528,
@@ -514,7 +732,7 @@
         <description>
 			Intensity:
 			2.076594045419336</description>
-        <styleUrl>#orangeStyle</styleUrl>
+        <styleUrl>#icon2</styleUrl>
         <Point>
           <coordinates>2.4360240396750155,
 				48.6189923434528,
@@ -527,7 +745,7 @@
         <description>
 			Intensity:
 			2.8911978130958484</description>
-        <styleUrl>#orangeStyle</styleUrl>
+        <styleUrl>#icon2</styleUrl>
         <Point>
           <coordinates>2.436770527662514,
 				48.61963202701532,
@@ -540,7 +758,7 @@
         <description>
 			Intensity:
 			2.8911978130958484</description>
-        <styleUrl>#orangeStyle</styleUrl>
+        <styleUrl>#icon2</styleUrl>
         <Point>
           <coordinates>2.436770527662514,
 				48.61963202701532,
@@ -553,7 +771,7 @@
         <description>
 			Intensity:
 			1.6328280320722186</description>
-        <styleUrl>#orangeStyle</styleUrl>
+        <styleUrl>#icon2</styleUrl>
         <Point>
           <coordinates>2.436770527662514,
 				48.61963202701532,
@@ -566,7 +784,7 @@
         <description>
 			Intensity:
 			3.536001081027953</description>
-        <styleUrl>#orangeStyle</styleUrl>
+        <styleUrl>#icon3</styleUrl>
         <Point>
           <coordinates>2.43844168224197,
 				48.619618078989184,
@@ -579,7 +797,7 @@
         <description>
 			Intensity:
 			1.6403190016726743</description>
-        <styleUrl>#orangeStyle</styleUrl>
+        <styleUrl>#icon2</styleUrl>
         <Point>
           <coordinates>2.43844168224197,
 				48.619618078989184,
@@ -592,7 +810,7 @@
         <description>
 			Intensity:
 			2.2749953287481883</description>
-        <styleUrl>#orangeStyle</styleUrl>
+        <styleUrl>#icon2</styleUrl>
         <Point>
           <coordinates>2.43844168224197,
 				48.619618078989184,
@@ -605,7 +823,7 @@
         <description>
 			Intensity:
 			3.209477734815364</description>
-        <styleUrl>#orangeStyle</styleUrl>
+        <styleUrl>#icon2</styleUrl>
         <Point>
           <coordinates>2.4401361625461937,
 				48.62459622282875,
@@ -618,7 +836,7 @@
         <description>
 			Intensity:
 			3.1602429914666317</description>
-        <styleUrl>#orangeStyle</styleUrl>
+        <styleUrl>#icon2</styleUrl>
         <Point>
           <coordinates>2.440087131855631,
 				48.62458205292761,
@@ -631,7 +849,7 @@
         <description>
 			Intensity:
 			3.886025775394039</description>
-        <styleUrl>#orangeStyle</styleUrl>
+        <styleUrl>#icon3</styleUrl>
         <Point>
           <coordinates>2.440026256013187,
 				48.62455314201691,
@@ -644,7 +862,7 @@
         <description>
 			Intensity:
 			3.2297482033508995</description>
-        <styleUrl>#orangeStyle</styleUrl>
+        <styleUrl>#icon2</styleUrl>
         <Point>
           <coordinates>2.440026256013187,
 				48.62455314201691,
@@ -657,7 +875,7 @@
         <description>
 			Intensity:
 			4.1059011268614025</description>
-        <styleUrl>#orangeStyle</styleUrl>
+        <styleUrl>#icon3</styleUrl>
         <Point>
           <coordinates>2.440026256013187,
 				48.62455314201691,
@@ -670,7 +888,7 @@
         <description>
 			Intensity:
 			2.2056045281286547</description>
-        <styleUrl>#orangeStyle</styleUrl>
+        <styleUrl>#icon2</styleUrl>
         <Point>
           <coordinates>2.439813181121774,
 				48.62383956459997,
@@ -683,7 +901,7 @@
         <description>
 			Intensity:
 			3.839634514725752</description>
-        <styleUrl>#orangeStyle</styleUrl>
+        <styleUrl>#icon3</styleUrl>
         <Point>
           <coordinates>2.439813181121774,
 				48.62383956459997,
@@ -696,7 +914,7 @@
         <description>
 			Intensity:
 			4.725955920432173</description>
-        <styleUrl>#orangeStyle</styleUrl>
+        <styleUrl>#icon3</styleUrl>
         <Point>
           <coordinates>2.4396439919065944,
 				48.62305342307527,
@@ -709,7 +927,7 @@
         <description>
 			Intensity:
 			2.0662002793010625</description>
-        <styleUrl>#orangeStyle</styleUrl>
+        <styleUrl>#icon2</styleUrl>
         <Point>
           <coordinates>2.4389204210271878,
 				48.62287651196025,
@@ -722,7 +940,7 @@
         <description>
 			Intensity:
 			2.0152052338638864</description>
-        <styleUrl>#orangeStyle</styleUrl>
+        <styleUrl>#icon2</styleUrl>
         <Point>
           <coordinates>2.4389204210271878,
 				48.62287651196025,
@@ -735,7 +953,7 @@
         <description>
 			Intensity:
 			3.9718319155997603</description>
-        <styleUrl>#orangeStyle</styleUrl>
+        <styleUrl>#icon3</styleUrl>
         <Point>
           <coordinates>2.4389204210271878,
 				48.62287651196025,
@@ -748,7 +966,7 @@
         <description>
 			Intensity:
 			2.001462071292014</description>
-        <styleUrl>#orangeStyle</styleUrl>
+        <styleUrl>#icon2</styleUrl>
         <Point>
           <coordinates>2.43817021688833,
 				48.6229272690842,
@@ -761,7 +979,7 @@
         <description>
 			Intensity:
 			3.223923628884603</description>
-        <styleUrl>#orangeStyle</styleUrl>
+        <styleUrl>#icon2</styleUrl>
         <Point>
           <coordinates>2.43817021688833,
 				48.6229272690842,
@@ -774,7 +992,7 @@
         <description>
 			Intensity:
 			2.229914942390513</description>
-        <styleUrl>#orangeStyle</styleUrl>
+        <styleUrl>#icon2</styleUrl>
         <Point>
           <coordinates>2.4376121214180784,
 				48.62302042971284,
@@ -787,7 +1005,7 @@
         <description>
 			Intensity:
 			1.9253481963863015</description>
-        <styleUrl>#orangeStyle</styleUrl>
+        <styleUrl>#icon2</styleUrl>
         <Point>
           <coordinates>2.4375281855602693,
 				48.62303225876054,
@@ -800,7 +1018,7 @@
         <description>
 			Intensity:
 			2.7276918031793347</description>
-        <styleUrl>#orangeStyle</styleUrl>
+        <styleUrl>#icon2</styleUrl>
         <Point>
           <coordinates>2.4353836101318644,
 				48.6232273604239,
@@ -813,7 +1031,7 @@
         <description>
 			Intensity:
 			2.1928275065875553</description>
-        <styleUrl>#orangeStyle</styleUrl>
+        <styleUrl>#icon2</styleUrl>
         <Point>
           <coordinates>2.435315852787117,
 				48.62323434353266,
@@ -826,7 +1044,7 @@
         <description>
 			Intensity:
 			2.521307243109087</description>
-        <styleUrl>#orangeStyle</styleUrl>
+        <styleUrl>#icon2</styleUrl>
         <Point>
           <coordinates>2.435546280913309,
 				48.62523744203948,
@@ -839,7 +1057,7 @@
         <description>
 			Intensity:
 			2.5281168993028427</description>
-        <styleUrl>#orangeStyle</styleUrl>
+        <styleUrl>#icon2</styleUrl>
         <Point>
           <coordinates>2.4338724359105934,
 				48.625055992560966,
@@ -852,7 +1070,7 @@
         <description>
 			Intensity:
 			2.961428930325102</description>
-        <styleUrl>#orangeStyle</styleUrl>
+        <styleUrl>#icon2</styleUrl>
         <Point>
           <coordinates>2.4334947572463284,
 				48.62501682443415,
@@ -865,7 +1083,7 @@
         <description>
 			Intensity:
 			2.812585981278488</description>
-        <styleUrl>#orangeStyle</styleUrl>
+        <styleUrl>#icon2</styleUrl>
         <Point>
           <coordinates>2.4334500449012237,
 				48.62500660493245,
@@ -878,7 +1096,7 @@
         <description>
 			Intensity:
 			4.135795922154975</description>
-        <styleUrl>#orangeStyle</styleUrl>
+        <styleUrl>#icon3</styleUrl>
         <Point>
           <coordinates>2.4323271113433806,
 				48.62494677846051,
@@ -891,7 +1109,7 @@
         <description>
 			Intensity:
 			2.296931279228355</description>
-        <styleUrl>#orangeStyle</styleUrl>
+        <styleUrl>#icon2</styleUrl>
         <Point>
           <coordinates>2.4321676388432127,
 				48.62493780805707,
@@ -904,7 +1122,7 @@
         <description>
 			Intensity:
 			3.681159532663605</description>
-        <styleUrl>#orangeStyle</styleUrl>
+        <styleUrl>#icon3</styleUrl>
         <Point>
           <coordinates>2.4307749253318405,
 				48.62510780251159,
@@ -917,7 +1135,7 @@
         <description>
 			Intensity:
 			2.9079107305119045</description>
-        <styleUrl>#orangeStyle</styleUrl>
+        <styleUrl>#icon2</styleUrl>
         <Point>
           <coordinates>2.4307209464269164,
 				48.62514190579936,
@@ -930,7 +1148,7 @@
         <description>
 			Intensity:
 			2.248095686272718</description>
-        <styleUrl>#orangeStyle</styleUrl>
+        <styleUrl>#icon2</styleUrl>
         <Point>
           <coordinates>2.4303700408179725,
 				48.62548928196012,
@@ -943,7 +1161,7 @@
         <description>
 			Intensity:
 			3.3372087920175355</description>
-        <styleUrl>#orangeStyle</styleUrl>
+        <styleUrl>#icon2</styleUrl>
         <Point>
           <coordinates>2.4303445654792717,
 				48.62549808867364,
@@ -956,7 +1174,7 @@
         <description>
 			Intensity:
 			2.1774939784897303</description>
-        <styleUrl>#orangeStyle</styleUrl>
+        <styleUrl>#icon2</styleUrl>
         <Point>
           <coordinates>2.4303445654792717,
 				48.62549808867364,
@@ -969,7 +1187,7 @@
         <description>
 			Intensity:
 			2.317478560772453</description>
-        <styleUrl>#orangeStyle</styleUrl>
+        <styleUrl>#icon2</styleUrl>
         <Point>
           <coordinates>2.4303445654792717,
 				48.62549808867364,
@@ -982,7 +1200,7 @@
         <description>
 			Intensity:
 			1.2726901502422123</description>
-        <styleUrl>#orangeStyle</styleUrl>
+        <styleUrl>#icon1</styleUrl>
         <Point>
           <coordinates>2.42860534289468,
 				48.6240383591299,
@@ -995,7 +1213,7 @@
         <description>
 			Intensity:
 			1.6898749286776855</description>
-        <styleUrl>#orangeStyle</styleUrl>
+        <styleUrl>#icon2</styleUrl>
         <Point>
           <coordinates>2.42860534289468,
 				48.6240383591299,
@@ -1008,7 +1226,7 @@
         <description>
 			Intensity:
 			1.6898749286776855</description>
-        <styleUrl>#orangeStyle</styleUrl>
+        <styleUrl>#icon2</styleUrl>
         <Point>
           <coordinates>2.42860534289468,
 				48.6240383591299,
@@ -1021,7 +1239,7 @@
         <description>
 			Intensity:
 			1.7499918128845113</description>
-        <styleUrl>#orangeStyle</styleUrl>
+        <styleUrl>#icon2</styleUrl>
         <Point>
           <coordinates>2.42860534289468,
 				48.6240383591299,
@@ -1034,7 +1252,7 @@
         <description>
 			Intensity:
 			1.659190210061423</description>
-        <styleUrl>#orangeStyle</styleUrl>
+        <styleUrl>#icon2</styleUrl>
         <Point>
           <coordinates>2.42860534289468,
 				48.6240383591299,
@@ -1047,7 +1265,7 @@
         <description>
 			Intensity:
 			2.191651465760412</description>
-        <styleUrl>#orangeStyle</styleUrl>
+        <styleUrl>#icon2</styleUrl>
         <Point>
           <coordinates>2.42860534289468,
 				48.6240383591299,
@@ -1060,7 +1278,7 @@
         <description>
 			Intensity:
 			2.191651465760412</description>
-        <styleUrl>#orangeStyle</styleUrl>
+        <styleUrl>#icon2</styleUrl>
         <Point>
           <coordinates>2.42860534289468,
 				48.6240383591299,
@@ -1073,7 +1291,7 @@
         <description>
 			Intensity:
 			1.0988395161484696</description>
-        <styleUrl>#orangeStyle</styleUrl>
+        <styleUrl>#icon1</styleUrl>
         <Point>
           <coordinates>2.42860534289468,
 				48.6240383591299,
@@ -1086,7 +1304,7 @@
         <description>
 			Intensity:
 			1.7330407576170028</description>
-        <styleUrl>#orangeStyle</styleUrl>
+        <styleUrl>#icon2</styleUrl>
         <Point>
           <coordinates>2.42860534289468,
 				48.6240383591299,
@@ -1099,7 +1317,7 @@
         <description>
 			Intensity:
 			1.0533006795925086</description>
-        <styleUrl>#orangeStyle</styleUrl>
+        <styleUrl>#icon1</styleUrl>
         <Point>
           <coordinates>2.42860534289468,
 				48.6240383591299,
@@ -1112,7 +1330,7 @@
         <description>
 			Intensity:
 			1.4539574877896815</description>
-        <styleUrl>#orangeStyle</styleUrl>
+        <styleUrl>#icon1</styleUrl>
         <Point>
           <coordinates>2.42860534289468,
 				48.6240383591299,
@@ -1125,7 +1343,7 @@
         <description>
 			Intensity:
 			1.0041268652960422</description>
-        <styleUrl>#orangeStyle</styleUrl>
+        <styleUrl>#icon1</styleUrl>
         <Point>
           <coordinates>2.42860534289468,
 				48.6240383591299,
@@ -1138,7 +1356,7 @@
         <description>
 			Intensity:
 			2.0664465865850428</description>
-        <styleUrl>#orangeStyle</styleUrl>
+        <styleUrl>#icon2</styleUrl>
         <Point>
           <coordinates>2.42860534289468,
 				48.6240383591299,
@@ -1151,7 +1369,7 @@
         <description>
 			Intensity:
 			1.2139200237620624</description>
-        <styleUrl>#orangeStyle</styleUrl>
+        <styleUrl>#icon1</styleUrl>
         <Point>
           <coordinates>2.42860534289468,
 				48.6240383591299,
@@ -1164,7 +1382,7 @@
         <description>
 			Intensity:
 			1.9266243506367573</description>
-        <styleUrl>#orangeStyle</styleUrl>
+        <styleUrl>#icon2</styleUrl>
         <Point>
           <coordinates>2.42825353281903,
 				48.621072632288644,
@@ -1177,7 +1395,7 @@
         <description>
 			Intensity:
 			1.832686248508061</description>
-        <styleUrl>#orangeStyle</styleUrl>
+        <styleUrl>#icon2</styleUrl>
         <Point>
           <coordinates>2.4282760292870176,
 				48.62103220630007,
@@ -1190,7 +1408,7 @@
         <description>
 			Intensity:
 			1.9043140322771581</description>
-        <styleUrl>#orangeStyle</styleUrl>
+        <styleUrl>#icon2</styleUrl>
         <Point>
           <coordinates>2.4282760292870176,
 				48.62103220630007,
@@ -1203,7 +1421,7 @@
         <description>
 			Intensity:
 			1.298907015898104</description>
-        <styleUrl>#orangeStyle</styleUrl>
+        <styleUrl>#icon1</styleUrl>
         <Point>
           <coordinates>2.4282760292870176,
 				48.62103220630007,
@@ -1216,7 +1434,7 @@
         <description>
 			Intensity:
 			3.3504895756517863</description>
-        <styleUrl>#orangeStyle</styleUrl>
+        <styleUrl>#icon2</styleUrl>
         <Point>
           <coordinates>2.4300317811236307,
 				48.61942600195918,
@@ -1229,7 +1447,7 @@
         <description>
 			Intensity:
 			2.9784199156850537</description>
-        <styleUrl>#orangeStyle</styleUrl>
+        <styleUrl>#icon2</styleUrl>
         <Point>
           <coordinates>2.430944775829798,
 				48.61934917697317,
@@ -1242,7 +1460,7 @@
         <description>
 			Intensity:
 			3.2803957840435762</description>
-        <styleUrl>#orangeStyle</styleUrl>
+        <styleUrl>#icon2</styleUrl>
         <Point>
           <coordinates>2.430944775829798,
 				48.61934917697317,
@@ -1255,7 +1473,7 @@
         <description>
 			Intensity:
 			3.236287246137529</description>
-        <styleUrl>#orangeStyle</styleUrl>
+        <styleUrl>#icon2</styleUrl>
         <Point>
           <coordinates>2.430944775829798,
 				48.61934917697317,
@@ -1268,7 +1486,7 @@
         <description>
 			Intensity:
 			3.037636472052486</description>
-        <styleUrl>#orangeStyle</styleUrl>
+        <styleUrl>#icon2</styleUrl>
         <Point>
           <coordinates>2.4315279160408356,
 				48.61927873932818,
@@ -1281,7 +1499,7 @@
         <description>
 			Intensity:
 			3.1108113687801113</description>
-        <styleUrl>#orangeStyle</styleUrl>
+        <styleUrl>#icon2</styleUrl>
         <Point>
           <coordinates>2.4315279160408356,
 				48.61927873932818,
@@ -1294,7 +1512,7 @@
         <description>
 			Intensity:
 			3.7350324544188727</description>
-        <styleUrl>#orangeStyle</styleUrl>
+        <styleUrl>#icon3</styleUrl>
         <Point>
           <coordinates>2.4315279160408356,
 				48.61927873932818,
@@ -1307,7 +1525,7 @@
         <description>
 			Intensity:
 			3.7350324544188727</description>
-        <styleUrl>#orangeStyle</styleUrl>
+        <styleUrl>#icon3</styleUrl>
         <Point>
           <coordinates>2.4315279160408356,
 				48.61927873932818,
@@ -1320,7 +1538,7 @@
         <description>
 			Intensity:
 			3.7350324544188727</description>
-        <styleUrl>#orangeStyle</styleUrl>
+        <styleUrl>#icon3</styleUrl>
         <Point>
           <coordinates>2.4315279160408356,
 				48.61927873932818,
