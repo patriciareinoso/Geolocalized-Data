@@ -1,13 +1,16 @@
 /**
- * Program that handles the map representation.
- * Uploads the information from a KML file and displays it.
+ * @fileOverview Handles the map representation. <br>
+ * Uses the Google Maps JavaScript API (v=3).<br>
+ * Uploads the information from a KML file and displays it.<br>
  *
  * Centers the map according to the user's location if possible.
  *
  * @author Oscar Guillén.
  * @author Patricia Reinoso.
+ *
+ * @module map
+ *
  */
-
 
 /**
  * Global variable that represents the map.
