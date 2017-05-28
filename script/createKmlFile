@@ -1,4 +1,19 @@
 #!/bin/sh
 
-basex intermediate.xqy > intermediate.xml
-xsltproc placemark-template.xsl intermediate.xml > test.kml
+# Script that generates a KML file from a given XML file.
+# It applys
+
+# $1 -> XML source file
+# $2 -> XQuery file including data processing
+# $3 -> XSL file with the template of the KML to generate
+# $4 -> name of the output file
+
+
+sourcefile=$1
+xqueryfile=$2
+xslfile=$3
+outputname=$4
+
+basex -bfilename=$sourcefile $xqueryfile > int
+xsltproc $xslfile int > $outputname
+rm int
