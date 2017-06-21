@@ -278,19 +278,19 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 			Quality:
 			<xsl:value-of select="QUALITY"/>
 	    </description>
-      	<xsl:if test="QUALITY &lt; 8">
+      	<xsl:if test="QUALITY &lt; 7">
           <styleUrl>#red-line</styleUrl>
       	</xsl:if>
-	    <xsl:if test="QUALITY &gt; 8 and QUALITY &lt; 9">
+	    <xsl:if test="QUALITY &gt; 7 and QUALITY &lt; 9">
           <styleUrl>#orange-line</styleUrl>
       	</xsl:if>
-      	<xsl:if test="QUALITY &gt; 9 and QUALITY &lt; 9.5">
+      	<xsl:if test="QUALITY &gt; 9 and QUALITY &lt; 11">
           <styleUrl>#yellow-line</styleUrl>
       	</xsl:if>
-	    <xsl:if test="QUALITY &gt; 9.5 and QUALITY &lt; 10">
+	    <xsl:if test="QUALITY &gt; 11 and QUALITY &lt; 13">
           <styleUrl>#green-yellow-line</styleUrl>
       	</xsl:if>
-      	<xsl:if test="QUALITY &gt; 10">
+      	<xsl:if test="QUALITY &gt; 13">
           <styleUrl>#green-line</styleUrl>
       	</xsl:if>
 	    <LineString>
@@ -309,7 +309,7 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 <!-- Template for potholes events (type 2). -->
 <xsl:template match="EVENT_RAW/POTHOLES/POTHOLE">
 	<Placemark>
-		<name>PothHole</name>
+		<name>Pothole</name>
 		<description>
 			Intensity:
 			<xsl:value-of select="INTENSITY"/>
