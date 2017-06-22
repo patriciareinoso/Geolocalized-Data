@@ -281,16 +281,16 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
       	<xsl:if test="QUALITY &lt; 7">
           <styleUrl>#red-line</styleUrl>
       	</xsl:if>
-	    <xsl:if test="QUALITY &gt; 7 and QUALITY &lt; 9">
+	    <xsl:if test="QUALITY &gt;= 7 and QUALITY &lt; 9">
           <styleUrl>#orange-line</styleUrl>
       	</xsl:if>
-      	<xsl:if test="QUALITY &gt; 9 and QUALITY &lt; 11">
+      	<xsl:if test="QUALITY &gt;= 9 and QUALITY &lt; 11">
           <styleUrl>#yellow-line</styleUrl>
       	</xsl:if>
-	    <xsl:if test="QUALITY &gt; 11 and QUALITY &lt; 13">
+	    <xsl:if test="QUALITY &gt;= 11 and QUALITY &lt; 13">
           <styleUrl>#green-yellow-line</styleUrl>
       	</xsl:if>
-      	<xsl:if test="QUALITY &gt; 13">
+      	<xsl:if test="QUALITY &gt;= 13">
           <styleUrl>#green-line</styleUrl>
       	</xsl:if>
 	    <LineString>
@@ -317,10 +317,10 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 		<xsl:if test="INTENSITY &lt; 1.5">
           <styleUrl>#yellow-icon</styleUrl>
       	</xsl:if>
-	    <xsl:if test="INTENSITY &gt; 1.5 and INTENSITY &lt; 3.5">
+	    <xsl:if test="INTENSITY &gt;= 1.5 and INTENSITY &lt; 3.5">
           <styleUrl>#orange-icon</styleUrl>
       	</xsl:if>
-      	<xsl:if test="INTENSITY &gt; 3.5">
+      	<xsl:if test="INTENSITY &gt;= 3.5">
           <styleUrl>#red-icon</styleUrl>
       	</xsl:if>
 		<Point>
