@@ -1,0 +1,4 @@
+#!/bin/sh
+
+basex intermediate.xqy > intermediate.xml
+xsltproc placemark-template.xsl intermediate.xml > test.kml
