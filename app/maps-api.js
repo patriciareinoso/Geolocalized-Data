@@ -85,7 +85,7 @@ function initMap() {
     getUserLocation();
 
     // Location of the KML file used on the representation
-    var src = 'https://sites.google.com/site/kmlfilestsp/kml/example.kml';
+    var src = 'https://sites.google.com/site/kmlfilestsp/kml/data-example.kml';
     
     // Creation of the KML layer using a public file
     var kmlLayer = new google.maps.KmlLayer(src, {

@@ -61,13 +61,13 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 		    <!-- Style definition for paths. Color Yellow. -->
 		    <Style id="yellow-line-normal">
 		      <LineStyle>
-		        <color>ff07eef2</color>
+		        <color>ff0688f1</color>
 		        <width>4.5</width>
 		      </LineStyle>
 		    </Style>
 		    <Style id="yellow-line-highlight">
 		      <LineStyle>
-		        <color>ff07eef2</color>
+		        <color>ff0688f1</color>
 		        <width>7.0215</width>
 		      </LineStyle>
 		    </Style>
@@ -108,13 +108,13 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 		    <!-- Style definition for paths. Color Red. -->
 		    <Style id="red-line-normal">
 		      <LineStyle>
-		        <color>501400F0</color>
+		        <color>ff1427a5</color>
 		        <width>4.5</width>
 		      </LineStyle>
 		    </Style>
 		    <Style id="red-line-highlight">
 		      <LineStyle>
-		        <color>501400F0</color>
+		        <color>ff1427a5</color>
 		        <width>7.0215</width>
 		      </LineStyle>
 		    </Style>
